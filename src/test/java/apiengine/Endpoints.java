@@ -1,12 +1,9 @@
 package apiengine;
 
-import helper.ConfigManager;
 import io.restassured.RestAssured;
 import io.restassured.config.Config;
 import io.restassured.response.Response;
 import static org.hamcrest.Matchers.*;
-
-import io.cucumber.java.en.*;
 
 public class Endpoints {
 
